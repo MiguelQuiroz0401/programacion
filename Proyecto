@@ -1,0 +1,214 @@
+//!!!!!!!profe, le dejo el link de descarga al programa ejecutable del proyecto, esta al lado del link de git hub en el doc de google. si lo descarga, en la capeta debug hay un ejecutable
+  ese es el programa sin imagenes, ya que el directorio de imagenes no se pudo enviar por un error, pero el programa corre normal. !!!!!!!!!!!!!-------------------
+// El programa en c++, es un simple swithc, que al pasarlo a la graficadora que trabaja con lenguaje c++, cambia, pero en escencia es el mismo funcionamiento, solo que la graficadora agrega algunas funciones
+   extra, que facilitan el codigo y de paso lo hacen lucir mucho mas profesional.
+
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int ropa, comp, caja, total=0;
+	cout<<"---------Bienvenido-----------"<<endl;
+		cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+		cin>>comp;
+	do{
+		cout<<"---------Bienvenido-----------"<<endl;
+		cout<<"Que desea comprar?"<<endl;
+		cout<<"1.- Camisas"<<endl;
+		cout<<"2.- Blusas"<<endl;
+		cout<<"3.- Pantalones"<<endl;
+		cout<<"4.- Ropa interior"<<endl;
+		cout<<"5.- Zapatos"<<endl;
+		cout<<"6.- outfits"<<endl;
+		cin>>ropa;
+		if(ropa==1){
+			cout<<"1.- Camisa blanco y negro a rayas, Levis --- 100bs."<<endl;
+			cout<<"2.- Camisa negro con estampado, Lacoste --- 100bs."<<endl; 
+			cout<<"3.- Camisa blanco, Tommy --- 100bs."<<endl; 
+			cout<<"4.- Volver"<<endl; 
+			cout<<"Que desea llevar?"<<endl;
+			cin>>caja;	//camisas
+		if(caja==1){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+100;}
+			if(caja==2){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+100;}
+			if(caja==3){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+100;}
+			else{
+		cout<<"Que desea comprar?"<<endl;
+		cout<<"1.- Camisas"<<endl;
+		cout<<"2.- Blusas"<<endl;
+		cout<<"3.- Pantalones"<<endl;
+		cout<<"4.- Ropa interior"<<endl;
+		cout<<"5.- Zapatos"<<endl;
+		cout<<"6.- outfits"<<endl;
+			cin>>ropa;
+			}
+		}
+	if(ropa==2){		//blusas
+			cout<<"1.- Blusa color blanco, Forever21 --- 120bs."<<endl;
+			cout<<"2.- Blusa color celeste, ZARA --- 120bs."<<endl;
+			cout<<"3.- Blusa color rosada, SHEIN --- 120bs."<<endl;
+			cout<<"4.- Volver"<<endl;
+			cout<<"Que desea llevar?"<<endl;
+			cin>>caja;
+			if(caja==1)	{
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+120;}
+			if(caja==2){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+120;}
+			if(caja==3)	{
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+120;}
+		else{
+			cout<<"Que desea comprar?"<<endl;
+		cout<<"1.- Camisas"<<endl;
+		cout<<"2.- Blusas"<<endl;
+		cout<<"3.- Pantalones"<<endl;
+		cout<<"4.- Ropa interior"<<endl;
+		cout<<"5.- Zapatos"<<endl;
+		cout<<"6.- outfits"<<endl;
+			cin>>ropa;
+		}
+	}
+	if(ropa==3){		//pantalones
+		cout<<"1.- Jean negro rasgado, Levis --- 200bs."<<endl;
+		cout<<"2.- Pantalon de vestir negro, Calvin Klein --- 200bs."<<endl;
+		cout<<"3.- Blue jean, Diesel --- 200bs."<<endl; 
+		cout<<"4.- Volver"<<endl; 
+		cout<<"Que desea llevar?"<<endl;
+		cin>>caja;
+			if(caja==1)	{
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+200;}
+			if(caja==2){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+200;}
+			if(caja==3)	{
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+200;}
+			else{
+			cout<<"Que desea comprar?"<<endl;
+		cout<<"1.- Camisas"<<endl;
+		cout<<"2.- Blusas"<<endl;
+		cout<<"3.- Pantalones"<<endl;
+		cout<<"4.- Ropa interior"<<endl;
+		cout<<"5.- Zapatos"<<endl;
+		cout<<"6.- outfits"<<endl;
+			cin>>ropa;
+		}
+	}
+	if(ropa==4){		//ropa interior
+		cout<<"1.- Boxer, Calvin Klein --- 50bs."<<endl;
+		cout<<"2.- Boxer, Lupo --- 50bs."<<endl;
+		cout<<"3.- Ropa interior para mujer, Victoria´s Secret --- 50bs."<<endl; 
+		cout<<"4.- Volver"<<endl; 
+		cout<<"Que desea llevar?"<<endl;
+		cin>>caja;
+			if(caja==1){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+50;}
+			if(caja==2){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+50;}
+			if(caja==3){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+50;}
+			else{
+			cout<<"Que desea comprar?"<<endl;
+		cout<<"1.- Camisas"<<endl;
+		cout<<"2.- Blusas"<<endl;
+		cout<<"3.- Pantalones"<<endl;
+		cout<<"4.- Ropa interior"<<endl;
+		cout<<"5.- Zapatos"<<endl;
+		cout<<"6.- outfits"<<endl;
+			cin>>ropa;
+		}
+	}
+	if(ropa==5){		//Zapatos
+		cout<<"1.- Tenis blancos, Nike --- 500bs."<<endl; 
+		cout<<"2.- Tenis blanco y negro, Adidas --- 500bs."<<endl; 
+		cout<<"3.- Tenis negro, Puma --- 500bs."<<endl; 
+		cout<<"4.- Volver"<<endl; 
+		cout<<"Que desea llevar?"<<endl;
+		cin>>caja;
+			if(caja==1){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+500;}
+			if(caja==2){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+500;}
+			if(caja==3){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+500;}
+			else{
+			cout<<"Que desea comprar?"<<endl;
+		cout<<"1.- Camisas"<<endl;
+		cout<<"2.- Blusas"<<endl;
+		cout<<"3.- Pantalones"<<endl;
+		cout<<"4.- Ropa interior"<<endl;
+		cout<<"5.- Zapatos"<<endl;
+		cout<<"6.- outfits"<<endl;
+			cin>>ropa;
+		}
+	}
+	if(ropa==6){		//outfits
+				cout<<"1.- Polera devortida blanca, short gris y zapatos blancos, Nike --- 800bs."<<endl; 
+				cout<<"2.- Blusa blanca, jean rasgado y zapatos blancos, Adidas --- 800bs."<<endl; 
+				cout<<"3.- Blusa roja, jean negro y converse negro, Converse --- 800bs."<<endl;
+				cout<<"4.- Volver"<<endl; 
+		cout<<"Que desea llevar?"<<endl;
+		cin>>caja;
+			if(caja==1){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+800;}
+			if(caja==2){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+800;}
+			if(caja==3){
+				cout<<"Si desea comprar algo escriba: 1. Si desea terminar sus comprar escriba cualquier otro valor"<<endl;
+				cin>>comp;
+				total=total+800;}
+	else{
+			cout<<"Que desea comprar?"<<endl;
+		cout<<"1.- Camisas"<<endl;
+		cout<<"2.- Blusas"<<endl;
+		cout<<"3.- Pantalones"<<endl;
+		cout<<"4.- Ropa interior"<<endl;
+		cout<<"5.- Zapatos"<<endl;
+		cout<<"6.- outfits"<<endl;
+			cin>>ropa;
+		}
+	}
+	}
+	while(comp==1);
+	cout<<"El total a pagar seria: "<<total<<". Gracias por su preferencia!";
+	getch();
+	return 0;
+}
